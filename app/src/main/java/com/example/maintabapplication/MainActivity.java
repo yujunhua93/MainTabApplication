@@ -13,6 +13,7 @@ import com.example.maintabapplication.fragment.BlankFragment1;
 import com.example.maintabapplication.fragment.BlankFragment2;
 import com.example.maintabapplication.fragment.BlankFragment3;
 import com.example.maintabapplication.fragment.BlankFragment4;
+import com.example.maintabapplication.view.TabIndicator;
 
 import java.util.List;
 
@@ -26,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
     BlankFragment3 blankFragment3;
     BlankFragment4 blankFragment4;
 
-    private RelativeLayout tab1;
-    private RelativeLayout tab2;
-    private RelativeLayout tab3;
-    private RelativeLayout tab4;
+    private TabIndicator tab1;
+    private TabIndicator tab2;
+    private TabIndicator tab3;
+    private TabIndicator tab4;
 
 
     @Override
@@ -81,18 +82,26 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void selectTag(int tabPostion){
+        tab1.setFource(false);
+        tab2.setFource(false);
+        tab3.setFource(false);
+        tab4.setFource(false);
         this.tabPostion = tabPostion;
         switch (tabPostion){
             case 0:
+                tab1.setFource(true);
                 switchFragment(R.id.home_frame,blankFragment1);
                 break;
             case 1:
+                tab2.setFource(true);
                 switchFragment(R.id.home_frame,blankFragment2);
                 break;
             case 2:
+                tab3.setFource(true);
                 switchFragment(R.id.home_frame,blankFragment3);
                 break;
             case 3:
+                tab4.setFource(true);
                 switchFragment(R.id.home_frame,blankFragment4);
                 break;
         }

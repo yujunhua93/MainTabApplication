@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabIndicator">
+        <attr name="tab_backimg_normal" format="reference" />
+        <attr name="tab_backimg_focus" format="reference" />
+        <attr name="tab_string" format="string" />
+        <attr name="tab_color_normal" format="color"/>
+        <attr name="tab_color_focus" format="color"/>
+    </declare-styleable>
+
+</resources>

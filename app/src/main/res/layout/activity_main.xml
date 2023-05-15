@@ -24,108 +24,52 @@
             android:layout_width="match_parent"
             android:layout_height="75dp"
             android:orientation="horizontal">
-            <RelativeLayout
+
+            <com.example.maintabapplication.view.TabIndicator
                 android:id="@+id/tab1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                >
+                app:tab_backimg_normal="@mipmap/ic_a_sy_as_xh"
+                app:tab_backimg_focus="@mipmap/ic_a_sy_uc_xh"
+                app:tab_string="首页">
 
-                <LinearLayout
+            </com.example.maintabapplication.view.TabIndicator>
 
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="27dp"
-                        android:background="@mipmap/ic_a_sy_as_xh"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="首页">
-
-                    </TextView>
-                </LinearLayout>
-
-
-            </RelativeLayout>
-            <RelativeLayout
+            <com.example.maintabapplication.view.TabIndicator
                 android:id="@+id/tab2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:tab_backimg_normal="@mipmap/ic_b_fx_as_xh"
+                app:tab_backimg_focus="@mipmap/ic_b_fx_uc_xh"
+                app:tab_string="我的学习">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="27dp"
-                        android:background="@mipmap/ic_b_fx_as_xh"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="首页">
+            </com.example.maintabapplication.view.TabIndicator>
 
-                    </TextView>
-                </LinearLayout>
-
-
-            </RelativeLayout>
-            <RelativeLayout
+            <com.example.maintabapplication.view.TabIndicator
                 android:id="@+id/tab3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:tab_backimg_normal="@mipmap/ic_d_gr_xuexq_ot_xh"
+                app:tab_backimg_focus="@mipmap/ic_d_gr_xuexq_ac_xh"
+                app:tab_string="学习圈">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="27dp"
-                        android:background="@mipmap/ic_d_gr_xuexq_ot_xh"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="首页">
-
-                    </TextView>
-                </LinearLayout>
-
-
-            </RelativeLayout>
-            <RelativeLayout
+            </com.example.maintabapplication.view.TabIndicator>
+            <com.example.maintabapplication.view.TabIndicator
                 android:id="@+id/tab4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:tab_backimg_normal="@mipmap/ic_d_gr_as_xh"
+                app:tab_backimg_focus="@mipmap/ic_d_gr_uc_xh"
+                app:tab_string="个人中心">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <ImageView
-                        android:layout_width="27dp"
-                        android:layout_height="27dp"
-                        android:background="@mipmap/ic_d_gr_as_xh"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="首页">
-
-                    </TextView>
-                </LinearLayout>
+            </com.example.maintabapplication.view.TabIndicator>
 
 
-            </RelativeLayout>
+
         </LinearLayout>
 
 

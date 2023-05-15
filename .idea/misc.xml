@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/activity_empty.xml" value="0.1671875" />
         <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/activity_main.xml" value="0.2259963768115942" />
         <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/fragment_blank1.xml" value="0.2259963768115942" />
         <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/fragment_blank2.xml" value="0.2259963768115942" />
         <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/fragment_blank3.xml" value="0.2259963768115942" />
         <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/fragment_blank4.xml" value="0.2259963768115942" />
+        <entry key="..\:/my_project/MainTabApplication/app/src/main/res/layout/tab_indicator.xml" value="0.25" />
       </map>
     </option>
   </component>
